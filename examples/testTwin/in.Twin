@@ -1,0 +1,40 @@
+# test input for the CuTwin lattice
+
+###########################################################################
+Load Xtal   Twin   CuTwin
+Tessellate 0 2  0 2  0 2  # tessellate the unitcell 2 in each direction
+
+Keep all  #must say to keep so that it will write 
+dump lst Twin_a.lst  # type='lst' is a simple list
+# look at this file, you'll see it's not good.
+
+# try the actual lattice constants
+LatBox 3.629 3.629 3.629  # this will overwrite the previous definition's
+Tessellate 0 2  0 2  0 2
+
+ShowLatt #this will show the current unit cell lattice definition
+Keep all
+save    #only saves selected points
+dump lst Twin_b.lst
+# look at this file, it is better
+
+###########################################################################
+# Try the new lattice, this makes a new buffer, erasing the previous.
+Load Xtal   Twin0   CuTwin0
+LatBox 3.629 3.629 3.629
+Tessellate 0 2  0 2  0 2
+
+ShowLatt # show this lattice
+Keep all 
+save
+dump lst Twin0_b.lst   #dump is only the current tesselation
+
+# dumpAll will dump the saved data points. not just the current buffer.
+dumpAll lst BothTwin.lst
+
+
+# When viewing these 'lst' files in 3D gnuplot
+#
+#>  set view equal xyz
+#>  sp 'BothTwin.lst' u 2:3:4 pt 5
+

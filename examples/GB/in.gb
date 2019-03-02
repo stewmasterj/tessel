@@ -1,0 +1,30 @@
+# testing customizable GB angles, etc.
+
+Load internal BCC
+
+# rotate by Miller Indeces before tessellation
+MillerRot [1 -1 0] [0 1 0] [0 0 1]
+ShowLatt
+# tesselate to fill rectangle
+TesselRec -20.0 20.0 -20.0 20.0 -5.9 5.9
+# or rotate lattice by angle after tessellation
+#rotate 0.77898163375 3  #rotate 45 dgrees about origin
+
+Keep rec T -10.0 10.0 0.0 10.0 -3.0 3.0
+#dump lst top.lst
+save
+################################################
+Load internal BCC #reset the lattice
+Tessellate -4 4 -4 1 -2 2
+
+#Keep all #all of this block
+Keep rec T -9.0 10.0 -10.0 0.0 -3.0 3.0
+save
+
+ShowExtents #only current block
+ShowBoxSize #total saved points
+ShowSavedExt #always good to check total model extents to verify BoxSize in MD3 files
+
+DumpAll lst gb.lst
+DumpAll MD3 gb.MD3
+

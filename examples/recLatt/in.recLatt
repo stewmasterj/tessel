@@ -1,0 +1,23 @@
+# test input for the CuTwin lattice
+
+###########################################################################
+Load Xtal   Twin  CuTwin0    #Load Lattice, type, Name, FILENAME
+# try the actual lattice constants
+LatBox 3.629 3.629 3.629  # this will overwrite the previous definition's
+ShowLatt
+#ShowTesselExt 0 1 0 1 0 1
+
+# tessellate to fill a rectangle with these strange lattice vectors
+TesselRec  -10. 10. -10. 10. -10. 10.
+
+ShowBoxSize
+ShowExtents
+
+Keep rec T -10. 10. -10. 10. -10. 10.
+dump lst recLatt.lst  # type='lst' is a simple list
+
+# When viewing these 'lst' files in 3D gnuplot
+#
+#>  set view equal xyz
+#>  sp 'BothTwin.lst' u 2:3:4 pt 5
+

@@ -1,0 +1,23 @@
+# mkXtal script that reproduces the program "test.f90"
+
+# STEP 1: Must specify a unitcell
+Load internal square   #load internal square lattice definition
+# a square lattice is 2D
+# STEP 2: Tessellate the unitcell
+Tessellate 0 5  0 5
+
+Keep all
+Dump xyz sqr.xyz	#dump the current lattice
+
+# STEP 3: Rotate the structure by 45 Deg
+echo step 3
+Rotate 0.785398   3  #axis 3 is the Z, out-of-plane
+
+# they're still all Kept
+Dump xyz rot45.xyz
+
+# STEP 4: Rotate by 90 Deg at (-2.8,2.8)
+echo step 4
+Rotate 1.570796   3  -2.828 2.828
+Dump xyz rot90.xyz
+

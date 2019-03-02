@@ -1,0 +1,18 @@
+# start with a normal FCC lattice
+# then align it with Model axis according to Miller indeces
+#  compare to book
+
+Load internal FCC  # a simple CuFCC lattice is built into the program
+ShowLatt
+
+# example from section 10.F.2 page 472 of Multiscale book
+MillerRot  [1 1 0] [-1 1 -2] [-1 1 1] # don't need [] but must separate numbers
+ShowLatt
+
+echo Should be:
+echo  0.707107  0.707107  0.000000
+echo -0.408248  0.408248 -0.816497
+echo -0.577350  0.577350  0.577350
+
+
+

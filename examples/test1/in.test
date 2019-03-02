@@ -1,0 +1,22 @@
+# mkXtal script that reproduces the program "test.f90"
+
+# STEP 1: Must specify a unitcell
+Load internal square   #load internal square lattice definition
+# a square lattice is 2D
+# STEP 2: Tessellate the unitcell
+Tessellate 0 5  0 5
+
+Keep all
+Dump xyz sqr.xyz	#dump the current lattice
+
+ShowLatt
+# STEP 3: Shear the unitcell into a Hex
+LattVec 
+ 1.0 0.5
+ 0.0 0.866
+
+Tessellate 0 5  0 5 
+Keep all
+Dump xyz hex.xyz
+
+

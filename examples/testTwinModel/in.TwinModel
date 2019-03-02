@@ -1,0 +1,22 @@
+# test input for the CuTwin lattice
+
+###########################################################################
+Load Xtal  Twin1  CuTwin1
+LatBox 3.629 3.629 3.629  # this will overwrite the previous definition's
+Tessellate -20 20  -10 50  -10 20
+
+#move -141.45 0.0 -36.29
+setScale -1 rec F -96.204 202.8024 0.0 20.0 -15.3469 15.3269
+setScale  1 rec T -229.8024 -96.204 0.0 9.45244 -15.3469 15.3269
+
+Keep rec T -102.204 229.8024 0.0 102.204 -15.3469 15.3269
+
+save    #only saves selected points
+dump lst Twin_TopS1.lst
+
+
+# When viewing these 'lst' files in 3D gnuplot
+#
+#>  set view equal xyz
+#>  sp 'BothTwin.lst' u 2:3:4 pt 5
+

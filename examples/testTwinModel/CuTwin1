@@ -1,0 +1,15 @@
+3.615		a0
+2.4495		a	[11 -2] [111] [1-10]  -MSU
+1.7321		b
+1.4142		c
+.false.		hexagonal?
+ 0.40825 0.40825 -0.8165        Base vectors
+ 0.57735 0.57735 0.57735
+ 0.707107 -0.707107  0.0
+1		number of species
+Cu 29		atom,atomic number
+4		ncell, number of atoms in unit cell
+0.0 0.0 0.0 29	atom vector and atomic number for each specie in unit cell
+0.5 0.5 0.0 29
+0.5 0.0 0.5 29
+0.0 0.5 0.5 29
