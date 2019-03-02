@@ -1,0 +1,17 @@
+3.795		a0
+1.0		a
+1.0		b
+1.0		c
+.false.		hexagonal?
+1.0 0.0 0.0	Base vectors
+0.0 1.0 0.0
+0.0 0.0 1.0
+2		number of species
+Fe 26		atom, atomic number
+N   7
+5		ncell, number of atoms in unit cell
+0.0 0.0 0.0 26	atom vector and atomic number for each specie in unit cell
+0.5 0.5 0.0 26
+0.5 0.0 0.5 26
+0.0 0.5 0.5 26
+0.5 0.5 0.5 7

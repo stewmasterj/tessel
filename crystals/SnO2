@@ -1,0 +1,18 @@
+4.7348		a0 Rutile
+1.0		a
+1.0		b
+0.672397989	c
+.false.		hexagonal?
+1.0 0.0 0.0	Base vectors
+0.0 1.0 0.0
+0.0 0.0 1.0
+2		number of species
+Si 50		atom, atomic number
+O   8
+6		ncell, number of atoms in unit cell
+ 0.0      0.0     0.0 50	atom vector and atomic number for each specie in unit cell
+ 0.5      0.5     0.5 50
+ 0.30573  0.30573 0.0 8
+-0.30573 -0.30573 0.0 8
+ 0.80573  0.19427 0.5 8
+ 0.19427  0.80573 0.5 8

@@ -1,0 +1,29 @@
+6.12		a0
+1.0		a
+0.8562		b
+0.7941		c
+.false.		hexagonal?
+1.0 0.0 0.0	Base vectors
+0.0 1.0 0.0
+0.0 0.0 1.0
+3		number of speicies
+Li  3		atom, atomic number
+P  15
+O   8
+16		ncell, number of atoms in unit cell
++0.248d0 +0.328d0 +0.986d0 3	atom vector and atomic number for each specie in unit cell
++0.752d0 +0.328d0 +0.986d0 3
++0.252d0 +0.672d0 +0.486d0 3
++0.748d0 +0.672d0 +0.486d0 3
++0.00d0  +0.157d0 +0.489d0 3
++0.5d0   +0.843d0 +0.989d0 3
+-0.00d0  +0.824d0 +0.00d0  15
++0.5d0   +0.176d0 +0.5d0   15
++0.208d0 +0.687d0 +0.896d0 8
++0.792d0 +0.687d0 +0.896d0 8
++0.292d0 +0.313d0 +0.396d0 8
++0.708d0 +0.313d0 +0.396d0 8
++0.000d0 +0.105d0 +0.900d0 8
++0.5d0   +0.895d0 +0.4d0   8
++0.00d0  +0.819d0 +0.317d0 8
++0.5d0   +0.181d0 +0.817d0 8

@@ -1,0 +1,16 @@
+3.2489		a0
+1.0		a
+0.8660254	b
+1.60205		c
+.true.		hexagonal?
+1.0 -.5 0.0	Base vectors
+0.0 0.8660254038 0.0
+0.0 0.0 1.0
+2		number of species
+Zn 30		atom, atomic number
+O   8
+4		ncell, number of atoms in unit cell
+0.33333 0.66667 0.3815 30	atom vector and atomic number for each specie in unit cell
+0.66667 0.33333 0.8815 30
+0.33333 0.66667 0.00000 8
+0.66667 0.33333 0.50000 8

@@ -1,0 +1,15 @@
+4.0559		a0
+14.071247	a
+9.9498744	b
+1.4142136	c
+.false.		hexagonal?
+0.49746834 -0.49746834 -0.71066905	Base vectors
+0.50251891 -0.50251891  0.70352647
+0.70710678  0.70710678  0.00000000
+1		number of species
+Al 13		atom, atomic number
+4		ncell, number of atoms in unit cell
+0.0 0.0 0.0 13	atom vector and atomic number for each specie in unit cell
+0.5 0.5 0.0 13
+0.5 0.0 0.5 13
+0.0 0.5 0.5 13

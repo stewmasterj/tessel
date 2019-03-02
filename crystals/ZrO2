@@ -1,0 +1,24 @@
+5.065		a0	Srilankite Pbcn
+1.0		a
+1.0		b
+1.0		c
+.false.		hexagonal?
+1.0 0.0 0.0	Base vectors
+0.0 1.0 0.0
+0.0 0.0 1.0
+2		number of species
+Zr  40	atom, atomic number
+O   8
+12		ncell, number of atoms in unit cell
+0.5000 0.5000 0.0 40	atom vector and atomic number for each specie in unit cell
+0.5000 0.0 0.5000 40
+0.0 0.5000 0.5000 40
+0.0 0.0 0.0       40
+.25 .25 .25 8
+.25 .25 .75 8
+.25 .75 .25 8
+.25 .75 .75 8
+.75 .25 .25 8
+.75 .25 .75 8
+.75 .75 .25 8
+.75 .75 .75 8

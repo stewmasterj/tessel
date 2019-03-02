@@ -1,0 +1,20 @@
+4.0559		a0
+1.0		a
+1.0		b
+1.0		c
+.false.		hexagonal?
+1.0 0.0 0.0	Base vectors
+0.0 1.0 0.0
+0.0 0.0 1.0
+1		number of species
+Al 31		atom, atomic number
+4		ncell, number of atoms in unit cell
+0.0 0.0 0.0 31	atom vector and atomic number for each specie in unit cell
+0.5 0.5 0.0 31
+0.5 0.0 0.5 31
+0.0 0.5 0.5 31
+
+this has an atomic number of 31, because it is used as a second material in 
+a model with some other aluminum containing material, 
+for example Al2O3 coated n Al metal. THis will be the metal and will use a
+different potential

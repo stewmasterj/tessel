@@ -1,0 +1,18 @@
+4.594		a0	Rutile
+1.0		a
+1.0		b
+0.644101	c
+.false.		hexagonal?
+1.0 0.0 0.0	Base vectors
+0.0 1.0 0.0
+0.0 0.0 1.0
+2		number of species
+Ti 22		atom, atomic number
+O   8
+6		ncell, number of atoms in unit cell
+ 0.0      0.0     0.0 22	atom vector and atomic number for each specie in unit cell
+ 0.5      0.5     0.5 22
+ 0.30573  0.30573 0.0 8
+-0.30573 -0.30573 0.0 8
+ 0.80573  0.19427 0.5 8
+ 0.19427  0.80573 0.5 8

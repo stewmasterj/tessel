@@ -1,0 +1,22 @@
+4.6837		a0
+1.0		a
+0.730747	b
+1.07862         c
+.false.		hexagonal?  ! monoclinic
+1.0 0.0 -0.17193	Base vectors
+0.0 1.0  0.0 
+0.0 0.0  0.98511
+2		number of species
+Cu 29		atom, atomic number
+O  8
+8		ncell, number of atoms in unit cell
+0.25 0.25 0.0 29	atom vector and atomic number for each specie in unit cell
+0.75 0.25 0.5 29
+0.75 0.75 0.00000 29
+1.25 0.75 0.50000 29
+0. 0.4184  0.25 8
+0. -0.4184 0.75 8
+0.5 0.9184 0.25 8
+0.5 0.0816 0.75 8
+
+
